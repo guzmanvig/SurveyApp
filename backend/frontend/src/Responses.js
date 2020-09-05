@@ -54,8 +54,9 @@ export default class Responses extends Component {
 
     componentDidMount() {
         
-        axios.get(process.env.REACT_APP_BACKEND_URL + "/api/responses")
+        axios.get("/api/responses")
             .then(response => {
+                console.log(response)
                 const data = response.data
                 data.map(surveyEntry => {
                     const questions = surveyEntry.questions

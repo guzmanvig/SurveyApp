@@ -46,7 +46,7 @@ export default class Survey extends Component {
             survey: this.state
         }
 
-        axios.post(process.env.REACT_APP_BACKEND_URL + "/api/responses/record", body)
+        axios.post("/api/responses/record", body)
             .then(res => { console.log(res) })
             .catch((error) => { console.log(error) })
     }
