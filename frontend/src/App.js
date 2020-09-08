@@ -15,7 +15,7 @@ function App() {
           Human Rights & Global Economy
         </Header>
         <Header as='h3'>
-           Migrant Rights / Familiy separation in the U.S. <br/>
+           Migrant Rights / Family separation in the U.S. <br/>
            Survey
         </Header>
         <Header as='h4'>
