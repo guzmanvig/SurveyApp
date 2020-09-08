@@ -5,7 +5,7 @@ import questions from "./questions.js"
 
 const Question = (props) => (
     <Form.Group grouped>
-        <Header as='h4'>{props.question.question}</Header>
+        <Header as='h4' style={{ color: "#246EB9" }}>{props.question.question}</Header>
         {props.question.options.map((option) => {
             return <Form.Radio
                         label= {option}
@@ -63,7 +63,7 @@ export default class Survey extends Component {
             <Container textAlign='left' style={{ marginTop: "3em" }}>
                 <Form onSubmit={this.handleSubmit}>
                     {this.questionsList()}
-                    <Button type='submit' color='blue'>Submit</Button>
+                        <Button type='submit' color='blue' style={{ marginBottom: "3em", marginTop: "1em" }}>Submit</Button>
                 </Form>
             </Container>
             :

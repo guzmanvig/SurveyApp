@@ -19,7 +19,7 @@ const colors = [
 
 const PieChartSection = (props) => (
     <Container textAlign='center' style={{ marginTop: "4em" }}>
-        <Header as='h2'>{props.question}</Header>
+        <Header as='h2' style={{ color: "#246EB9" }}>{props.question}</Header>
         <Chart
             width={'500px'}
             height={'300px'}
