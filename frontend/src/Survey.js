@@ -67,7 +67,7 @@ export default class Survey extends Component {
                 </Form>
             </Container>
             :
-            <Header as='h1' color='blue' style={{ marginTop: "3em" }}>
+            <Header as='h1' color='blue' style={{ marginTop: "3em", color: "#246EB9" }}>
                 Thank you for your responses!
             </Header>
         )
